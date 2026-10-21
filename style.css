@@ -135,6 +135,10 @@ main { max-width: 1040px; margin: 2.5rem auto; display: grid; gap: 2.5rem; }
 .cert-card figcaption { display: grid; gap: .15rem; margin-top: .8rem; font-size: .9rem; }
 .cert-card figcaption span { color: var(--muted); font-size: .82rem; }
 .cert-card figcaption a { color: var(--accent); font-weight: 600; text-decoration: none; margin-top: .3rem; }
+.cert-pdf { display: grid; place-content: center; gap: .4rem; text-align: center; aspect-ratio: 5 / 7; border: 1px solid #eee; background: #faf8f3; color: var(--ink); text-decoration: none; padding: 1rem; }
+.cert-pdf span { font-family: var(--font-head); font-size: 2.4rem; line-height: 1; }
+.cert-pdf small { color: var(--muted); font-size: .85rem; }
+.cert-pdf:hover { color: var(--accent); }
 
 /* ===== 5. Pengalaman ===== */
 .timeline { list-style: none; position: relative; border-left: 2px solid var(--line); margin-left: .5rem; padding-left: 2rem; }
